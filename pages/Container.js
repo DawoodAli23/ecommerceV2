@@ -3,11 +3,14 @@ import React from "react";
 function Container() {
   return (
     <div>
-      <cont class="flex flex-col space-y-7 aspect-video px-5 py-5 bg-indigo-300 w-2/5 ml-60">
+      <cont class="flex flex-col space-y-7 aspect-video px-5 py-5 bg-indigo-300 w-2/5 ml-60  border-2 border-white rounded-lg">
         <p1>Something</p1>
         <h1 className="text-2xl font-bold">Create Your Account</h1>
         <p1>
-          Already have an account?<a href="">Login</a>
+          Already have an account?
+          <a href="" className="text-fuchsia-200">
+            Login
+          </a>
         </p1>
         <div class="flex flex-nowrap space-x-2.5">
           <label className="relative">
@@ -15,7 +18,7 @@ function Container() {
               name="First Name"
               type="text"
               minLength={3}
-              className="px-3 duration-200 bg-gray-700 border-white border-opacity-50 rounded-lg outline-none focus:border-blue-500 focus:text-white trasition"
+              className="px-3 duration-200 bg-indigo-300 border-2 border-white border-opacity-50 rounded-lg outline-none focus:border-blue-500 focus:text-white trasition"
             />
             <span className="absolute left-0 mx-3 duration-200 input">
               First Name
@@ -26,7 +29,7 @@ function Container() {
               name="Last Name"
               type="text"
               minLength={3}
-              className="px-3 duration-200 bg-gray-700 border-white border-opacity-50 rounded-lg outline-none focus:border-blue-500 focus:text-white trasition"
+              className="px-3 duration-200 bg-indigo-300 border-2 border-white border-opacity-50 rounded-lg outline-none focus:border-blue-500 focus:text-white trasition"
             />
             <span className="absolute left-0 mx-3 duration-200 input">
               Last Name
@@ -35,7 +38,7 @@ function Container() {
         </div>
         <label className="relative">
           <input
-            className="px-3 duration-200 bg-gray-700 border-white border-opacity-50 rounded-lg outline-none focus:border-blue-500 focus:text-white trasition "
+            className="px-3 duration-200 bg-indigo-300 border-2 border-white border-opacity-50 rounded-lg outline-none focus:border-blue-500 focus:text-white trasition "
             type="email"
           />
           <span className="absolute left-0 mx-3 duration-200 input">
@@ -44,11 +47,11 @@ function Container() {
         </label>
         <label className="relative">
           <input
-            className="px-3 duration-200 bg-gray-700 border-white border-opacity-50 rounded-lg outline-none focus:border-blue-500 focus:text-white trasition "
+            className="px-3 duration-200 bg-indigo-300 border-2 border-white border-opacity-50 rounded-lg outline-none focus:border-blue-500 focus:text-white trasition "
             type="password"
           />
           <span className="absolute left-0 mx-3 duration-200 input">
-            password
+            Password
           </span>
         </label>
         <button className="bg-indigo-500 rounded-md w-52">

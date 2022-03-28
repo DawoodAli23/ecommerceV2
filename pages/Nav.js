@@ -3,7 +3,7 @@ import React from "react";
 function Nav() {
   return (
     <div>
-      <nav className="h-10 bg-gradient-to-r from-cyan-500 to-blue-500">
+      <nav className="h-7 bg-gradient-to-r from-cyan-500 to-blue-500">
         <ul className="flex flex-row space-x-16">
           <a class="relative" href="">
             Logo

@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 input[type="text"]:focus ~ .input {
-  @apply text-blue-500 transform -translate-x-4 bg-indigo-300 -translate-y-7;
+  @apply text-blue-500 transform scale-75 -translate-x-1 -translate-y-3 bg-indigo-300;
 }
 input[type="email"]:focus ~ .input {
-  @apply text-blue-500 transform -translate-x-4 bg-indigo-300 -translate-y-7;
+  @apply text-blue-500 transform scale-75 -translate-x-1 -translate-y-3 bg-indigo-300;
 }
 input[type="password"]:focus ~ .input {
-  @apply text-blue-500 transform -translate-x-4 bg-indigo-300 -translate-y-7;
+  @apply text-blue-500 transform scale-75 -translate-x-1 -translate-y-3 bg-indigo-300;
 }
