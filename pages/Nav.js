@@ -3,18 +3,18 @@ import React from "react";
 function Nav() {
   return (
     <div>
-      <nav className="h-7 bg-gradient-to-r from-cyan-500 to-blue-500">
+      <nav className="text-white h-7">
         <ul className="flex flex-row space-x-16">
-          <a class="relative" href="">
+          <a className="relative hover:scale-90" href="">
             Logo
           </a>
-          <a class="relative group tracking-widest" href="">
+          <a className="relative tracking-widest group hover:scale-90" href="">
             Home
-            <div class="absolute w-full h-0.5 bg-white scale-x-0  group-hover:scale-x-100 transition-transform"></div>
+            <div className="absolute w-full h-0.5 bg-white scale-x-0  group-hover:scale-x-100 transition-transform"></div>
           </a>
-          <a class="relative group tracking-widest" href="">
+          <a className="relative tracking-widest group hover:scale-90" href="">
             About
-            <div class="absolute w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform"></div>
+            <div className="absolute w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform"></div>
           </a>
         </ul>
       </nav>
