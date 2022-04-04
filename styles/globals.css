@@ -10,3 +10,9 @@ input[type="email"]:focus ~ .input {
 input[type="password"]:focus ~ .input {
   @apply text-white transform scale-75 -translate-x-5 -translate-y-6;
 }
+@layer base {
+  html {
+    font-family: "https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap",
+      system-ui, sans-serif;
+  }
+}
